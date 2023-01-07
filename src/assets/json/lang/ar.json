@@ -1,0 +1,95 @@
+{
+    "sidebar": {
+        "hello": "مرحباً",
+        "logoAlt": "المركز السعودي للأعمال",
+        "user": "أحمد خالد الغامدي القحطاني",
+        "home": "الرئيسية",
+        "recivedRequests": "الطلبات الواردة",
+        "myRequests": "طلباتي",
+        "adressesLog": "سجل العناوين",
+        "authorization": "التفاويض",
+        "electronicServices": "الخدمات الإلكترونية",
+        "commercialNameBooking": "حجز اسم تجاري",
+        "renewCommercialLog": "تجديد سجل تجاري",
+        "deleteCommercialLog": "شطب سجل تجاري",
+        "otherLinks": "روابط اخرى",
+        "businessPlatform": "منصة الأعمال",
+        "contactUs": "تواصل معنا",
+        "footer": "تطوير الهيئة السعودية للبيانات والذكاء الإصطناعي",
+        "copyRights": "جميع الحقوق محفوظة للمركز السعودي للأعمال الإقتصادية 2021"
+    },
+    "dashboard": {
+        "headers": {
+            "commercialLogsList": "قائمة السجلات التجارية",
+            "licenseStatistics": "إحصائيات الرخص"
+        },
+        "tabs": {
+            "all": "العدد الكلي",
+            "subLogs": "السجلات الفرعية",
+            "firmLogsNo": "عدد سجلات المؤسسات",
+            "favoriteLogs": "السجلات المفضلة"
+        },
+        "card": {
+            "logStatus": "حالة السجل",
+            "logType": "نوع السجل",
+            "businessEntityType": "نوع الكيان التجاري",
+            "expirationDate": "تاريخ الإنتهاء",
+            "buildingNo": "الرقم الموحد للمنشأة",
+            "commercialLogNo": "رقم السجل التجاري",
+            "showEditLog": "عرض وإدارة السجل",
+            "editCommercialLog": "تعديل السجل التجاري",
+            "renewCommercialLog": "تجديد السجل التجاري",
+            "deleteCommercialLog": "شطب السجل التجاري",
+            "mainLog": "سجل رئيسي",
+            "subLog": "سجل فرعي",
+            "activeLog": "سجل قائم",
+            "deletedLog": "مشطوب",
+            "firm": "مؤسسة"
+        },
+        "license": {
+            "dueAmount": "المبلغ المستحق",
+            "totalCount": "العدد الإجمالي",
+            "currecySymbol": "ريال"
+        }
+    },
+    "stepper": {
+        "insertRequestData": "ادخال بيانات الطلب",
+        "sendRequest": "ارسال الطلب"
+    },
+    "reserveNameRequestForm": {
+        "commercialName": "الاسم التجاري",
+        "selectCommercialNameType": "حدد نوع الاسم التجاري",
+        "specialName": "اسم خاص",
+        "suggestedName": "اسم مقترح",
+        "pleaseSelectPreviousForwardWord": "اختر الكلمة السابقة والكلمة اللاحقة التي ستضاف إلى الاسم التجاري",
+        "buldingType": "نوع المنشأة",
+        "activityType": "نوع النشاط",
+        "exampleForCommercialName": "مثال على شكل الاسم التجاري",
+        "previousWord": "الكلمة السابقة",
+        "forwardWord": "الكلمة اللاحقة",
+        "ownerName": "اسم الكيان",
+        "projectOwnerName": "اسم مالك المشروع",
+        "addName": "اضف الاسم",
+        "next": "التالي",
+        "cancel": "الغاء الطلب",
+        "requestSent": "تم ارسال طلبك بنجاح",
+        "fullCommercialName": "الاسم التجاري الكامل",
+        "delete": "حذف"
+    },
+    "breadcrumb": {
+        "home": "الصفحة الرئيسية",
+        "reserveCommercialNameRequest": "طلب حجز اسم تجاري"
+    },
+    "select": {
+        "activityTypes": {
+            "commerce": "للتجارة",
+            "industry": "للصناعة",
+            "tourism": "للسياحة"
+        },
+        "buildingTypes": {
+            "center": "مركز",
+            "establishment": "مؤسسة",
+            "company": "شركة"
+        }
+    }
+}

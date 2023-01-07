@@ -1,0 +1,26 @@
+.footer {
+    color: $white;
+    font-size: .75rem;
+    text-align: center;
+    padding-bottom: 20px;
+    &-img {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    &-developedby {
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+            border-top: 2px solid $white;
+            max-width: 250px;
+        }
+    }
+    &-copy-rights {
+        color: lighten($light-main-color, 7);
+    }
+}

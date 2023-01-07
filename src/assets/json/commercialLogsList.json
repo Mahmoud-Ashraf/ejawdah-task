@@ -1,0 +1,40 @@
+{
+    "logsList": [
+        {
+            "id": "logs92346883747",
+            "name": "مؤسسة خالد للسياحة متعددة الأنشطة",
+            "logStatus": "activeLog",
+            "logType": "mainLog",
+            "isDeleted": false,
+            "isFavourite": false,
+            "type": "firm",
+            "expirationDate": "22/02/2021",
+            "buildingNo": 70021021,
+            "commercialLogNo": 10232102
+        },
+        {
+            "id": "logs92346477438",
+            "name": "مؤسسة سعد للسياحة نشاط فردي",
+            "logStatus": "activeLog",
+            "logType": "mainLog",
+            "isDeleted": false,
+            "isFavourite": true,
+            "type": "firm",
+            "expirationDate": "22/02/2021",
+            "buildingNo": 70021022,
+            "commercialLogNo": 10232102
+        },
+        {
+            "id": "logs092384089347",
+            "name": "مؤسسة قاسم للسياحة ثنائية النشاط",
+            "logStatus": "deletedLog",
+            "logType": "subLog",
+            "isDeleted": true,
+            "isFavourite": false,
+            "type": "firm",
+            "expirationDate": "22/02/2021",
+            "buildingNo": 70021023,
+            "commercialLogNo": 10232102
+        }
+    ]
+}

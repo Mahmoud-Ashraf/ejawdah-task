@@ -1,0 +1,91 @@
+.reserve-name-request {
+    background-color: $main-color;
+    text-transform: capitalize;
+    &-wrapper {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 30px 50px;
+        background-color: $gray-100;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    &-stepper, &-content, &-actions {
+        width: 100%;
+    }
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    &-step {
+        
+        &-details {
+            display: inline-flex;
+            align-items: center;
+            background-color: $white;
+            padding-inline-end: 20px;
+            cursor: pointer;
+            &-number {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: lighten($main-color, 40);
+                color: lighten($main-color, 20);
+            }
+
+            &-name {
+                text-transform: capitalize;
+                padding: 0 10px;
+                background-color: $white;
+            }
+        }
+
+        // &:not(:last-child) {
+
+        //     position: relative;
+
+        //     &::after {
+        //         position: absolute;
+        //         content: "";
+        //         width: 90%;
+        //         bottom: 50%;
+        //         border-bottom: 1px solid $main-color;
+        //         z-index: 0;
+        //     }
+
+        // }
+
+        &.active {
+            font-weight: bold;
+
+            .stepper-step-details {
+                &-number {
+                    border: 2px solid $main-color;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
+
+.commercial-name {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    background-color: $primary;
+    padding: 20px;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        span {
+            cursor: pointer;
+        }
+    }
+}

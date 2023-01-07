@@ -1,0 +1,32 @@
+{
+    "licenses": [
+        {
+            "id": "license123456784",
+            "name": "الشركة السعودية للكهرباء",
+            "img": "l1.png",
+            "dueAmout": 7342.55,
+            "totalCount": 121
+        },
+        {
+            "id": "license975432456",
+            "name": "شركة الاتصالات السعودية",
+            "img": "l3.png",
+            "dueAmout": 3204,
+            "totalCount": 5
+        },
+        {
+            "id": "license120987468",
+            "name": "شركة المياه الوطنية",
+            "img": "l2.png",
+            "dueAmout": 11232.3,
+            "totalCount": 7
+        },
+        {
+            "id": "license451233034",
+            "name": "المنصة الوطنية للمخالفات",
+            "img": "l6.png",
+            "dueAmout": 2321.3,
+            "totalCount": 29
+        }
+    ]
+}

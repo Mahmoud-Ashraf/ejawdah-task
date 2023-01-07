@@ -1,0 +1,110 @@
+.dashboard {
+    text-transform: capitalize;
+    &-header {
+        color: $main-color;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+    &-tabs {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &-tab {
+        padding: 10px;
+        cursor: pointer;
+
+        &.active {
+            border: 1px solid $border-color;
+            border-bottom: 3px solid $main-color;
+            font-weight: 600;
+        }
+    }
+
+    &-cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        row-gap: 20px;
+    }
+
+    &-card {
+        border: 1px solid $border-color;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+
+            &-title {
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+
+                &-details {
+                    display: flex;
+                    column-gap: 15px;
+                    font-size: .75rem;
+                }
+            }
+            &-actions {
+                display: flex;
+                align-items: flex-start;
+                column-gap: 10px;
+            }
+        }
+
+        .entity {
+            display: flex;
+            column-gap: 10px;
+            align-items: baseline;
+            &-icon {
+                font-size: 1.8em;
+            }
+
+            &-desc {
+                display: flex;
+                flex-direction: column;
+                column-gap: 20px;
+
+                &-name {
+                    color: #bbb;
+                    font-weight: 600;
+                    align-items: center;
+                    font-size: 0.93em;
+                }
+            }
+        }
+    }
+
+    .license {
+        border: 1px solid $border-color;
+        padding: 10px;
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            &-title {
+                font-size: 1.2rem;
+            }
+            &-img {
+                width: 30px;
+                height: 30px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &-content {
+            font-weight: 600;
+            .alert {
+                font-size: .9rem;
+                display: inline-block;
+            }
+        }
+    }
+}

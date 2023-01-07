@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 0;
+}
+.btn.btn-outline-primary {
+    background-color: rgba($blue-200, .3);
+    color: $blue-400;
+    border-color: rgba($blue-200, .3);
+    &.active, &:active {
+        background-color: $blue-400;
+        color: $white;
+        border-color: $blue-600;
+    }
+}

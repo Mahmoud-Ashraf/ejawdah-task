@@ -1,0 +1,43 @@
+.radio-label-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lighten($main-color, 40);
+    border-radius: 50%;
+    font-size: .9rem;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.form-check .form-check-input {
+    margin-left: 0;
+}
+
+.commercial-name-example {
+    border: 1px dashed lighten($main-color, 20);
+    padding: 20px;
+    background-color: lighten($main-color, 45);
+    display: flex;
+    column-gap: 15px;
+    &-sperator {
+        width: 5%;
+        background-color: lighten($main-color, 40);
+        border: 1px dashed lighten($main-color, 30);
+        height: 70px;
+    }
+    .previous-word, .forward-word {
+        width: 22.5%;
+    }
+    .owner-name {
+        width: 45%;
+    }
+    .example-value {
+        font-size: 1.7rem;
+        color: lighten($main-color, 20);
+    }
+}

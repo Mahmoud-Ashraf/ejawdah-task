@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "DINNEXT";
+    src: url("../../fonts/DINNextLTArabic-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DINNEXT";
+    src: url("../../fonts/DINNextLTArabic-Bold.ttf") format("truetype");
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Tajawal";
+    src: url("../../fonts/Tajawal-ExtraLight.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tajawal";
+    src: url("../../fonts/Tajawal-Bold.ttf") format("truetype");
+    font-style: bold;
+}
+
+body {
+    font-family: "Tajawal";
+}

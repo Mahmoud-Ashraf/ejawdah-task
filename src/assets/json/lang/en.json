@@ -1,0 +1,97 @@
+{
+    "sidebar": {
+        "hello": "Hello",
+        "logoAlt": "المركز السعودي للأعمال",
+        "user": "ahmed khaled elghamdy elqahtany",
+        "home": "home",
+        "recivedRequests": "recived requests",
+        "myRequests": "my requests",
+        "adressesLog": "adresses log",
+        "authorization": "authorization",
+        "electronicServices": "electronic services",
+        "commercialNameBooking": "commercial name booking",
+        "renewCommercialLog": "renew commercial log",
+        "deleteCommercialLog": "delete commercial log",
+        "otherLinks": "other links",
+        "businessPlatform": "business platform",
+        "contactUs": "contact us",
+        "footer": "developed by Saudi data & AI Authority",
+        "copyRights": "All rights reserved for saudi economical business center 2021"
+    },
+    "dashboard": {
+        "headers": {
+            "commercialLogsList": "commercial logs list",
+            "licenseStatistics": "license statistics"
+
+        },
+        "tabs": {
+            "all": "all",
+            "subLogs": "sub logs",
+            "firmLogsNo": "firms logs number",
+            "favoriteLogs": "favorite logs"
+        },
+        "card": {
+            "logStatus": "log status",
+            "logType": "log type",
+            "businessEntityType": "business entity type",
+            "expirationDate": "expiration Date",
+            "buildingNo": "building number",
+            "commercialLogNo": "commercial log number",
+            "showEditLog": "show & edit log",
+            "editCommercialLog": "edit commercial log",
+            "renewCommercialLog": "renew commercial log",
+            "deleteCommercialLog": "delete commercial log",
+            "mainLog": "main log",
+            "subLog": "sub log",
+            "activeLog": "active log",
+            "deletedLog": "deleted",
+            "firm": "firm"
+        },
+        "license": {
+            "dueAmount": "due amount",
+            "totalCount": "total count",
+            "currecySymbol": "SAR"
+        }
+    },
+    "stepper": {
+        "insertRequestData": "insert request data",
+        "sendRequest": "send request"
+    },
+    "reserveNameRequestForm": {
+        "commercialName": "commercial name",
+        "selectCommercialNameType": "select commercial name type",
+        "specialName": "special name",
+        "suggestedName": "suggested name",
+        "pleaseSelectPreviousForwardWord": "select previous word & forward word which will add to commercial name",
+        "buldingType": "building type",
+        "activityType": "activity type",
+        "exampleForCommercialName": "example for commercial name",
+        "previousWord": "previous word",
+        "forwardWord": "forward word",
+        "ownerName": "owner name",
+        "projectOwnerName": "project owner name",
+        "addName": "add the name",
+        "next": "next",
+        "cancel": "cancel request",
+        "requestSent": "your request sent successfully",
+        "fullCommercialName": "full commercial name",
+        "delete": "delete"
+    },
+    "breadcrumb": {
+        "home": "home",
+        "reserveCommercialNameRequest": "reserve commercial name request"
+    },
+    "select": {
+        "activityTypes": {
+            "commerce": "for commerce",
+            "industry": "for industry",
+            "tourism": "for tourism"
+        },
+        "buildingTypes": {
+            "center": "center",
+            "establishment": "establishment",
+            "company": "company"
+        }
+    }
+    
+}

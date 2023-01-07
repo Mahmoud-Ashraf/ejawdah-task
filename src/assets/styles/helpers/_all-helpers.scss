@@ -1,0 +1,11 @@
+@import './fonts';
+
+.custom-white-box {
+    padding: 40px 20px;
+    background: $white;
+    box-shadow: 0px 4px 17px 2px $border-color;
+}
+.custom-light-box {
+    padding: 20px;
+    background-color: lighten($main-color, .8);
+}

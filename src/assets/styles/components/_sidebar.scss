@@ -1,0 +1,26 @@
+.sidebar {
+    padding: 0 20px;
+    background-color: $main-color;
+    
+    &-links {
+        margin: 0 -20px;
+        &:not(:last-child) {
+            border-bottom: 3px solid $light-main-color;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        &-link a {
+            transition: 0.3s ease-in-out;
+            padding: 10px 20px;
+            text-transform: capitalize;
+            display: block;
+            color: lighten($light-main-color, 7);
+            font-weight: 600;
+            // font-size: 1.25rem;
+            &:hover {
+                color: $white;
+                background-color: $light-main-color;
+            }
+        }
+    }
+}
